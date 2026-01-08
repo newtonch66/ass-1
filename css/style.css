@@ -7,9 +7,8 @@
 /* shared style  */
 .font-inter {
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
   font-weight: <weight>;
-  font-style: normal;
+ 
 }
 
 .logo img{
@@ -100,6 +99,7 @@ section .hero-text p{
     padding: 32px 16px;
     font-weight: 400;
     line-height: 24px;
+    color: #FFFFFF;
     
 }
 
@@ -118,7 +118,58 @@ section .hero-last-button{
     width: 198px;
     height: 52px;
     gap: 10px;
-    font-weight: 600;
+    font-weight: 600;  
+}
+
+.text{
+    padding-top: 36px;
+    width: 1360px;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    color: #001931;
+    
+}
+
+.text p{
+    padding-top: 16px;
+    line-height: 20px;
+    color: #627382;
+}
+
+.all-item .knowledge-box{
+    padding-top: 44px;
+    width: 1360px;
+    max-width: 1600;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    gap: 24px;
+    
+}
+
+.knowledge-box .knowledge-card{
+    box-shadow: 0 6px 8px 0 #0000002b;
     
     
+}
+
+.knowledge-box .knowledge-card img{
+background-color: #F95555;  
+border-radius: 1000%; 
+width: 32px; 
+height: 32px;
+padding: 5px;
+}
+
+.knowledge-card h3{
+    font-size: 24px;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+.knowledge-card p{
+    font-size: 16px;
+    color: #627382;
+    line-height: 20px;
 }
