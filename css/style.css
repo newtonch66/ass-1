@@ -19,19 +19,18 @@
 }
 
 .btn {
-    background: #30B868;
-    border: none;
-    padding: 12px 16px;
-    font-size: 16px;
-    color: #FFFFFF;
-    font-weight: 600;
-    border-radius: 4px;
-
-
+    display: inline-block;          
+    padding: 8px 10px;
+    background-color: #2ecc71;      
+    color: #FFFFFF;                 
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s ease, color 0.3s ease;
 }
-.btn :hover{
-    background: #F95555;
-    cursor: pointer;
+
+.btn:hover {
+    background-color: #27ae60;      
+    color: #FFFFFF;                 
 }
 
 /* Main style  */
@@ -186,18 +185,46 @@ padding: 5px;
 
 
 /* second brain part */
-.brain-2nd {
+.brain{
     width: 1360px;
     max-width: 1600px;
     margin: 0 auto;
-    
-    
-}
-
-.brain-text{
+    display: flex;
+    padding-top: 120px;
     
 }
 
+.barin-text{
+    padding: 102px 0px 102px 60px ;
+    justify-content: center;
+
+}
+
+.brani-title{
+    font-size: 16px;
+    font-weight: 400;
+    color: #27ae60;
+    padding-bottom: 36px;
+}
+
+.barin-text h2{
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom: 16px;
+}
+
+.barin-text-2{
+    font-size: 16px;
+    font-weight: 100;
+    color: #627382;
+    line-height: 20px;
+    padding-bottom: 40px;
+}
+
+.mark {
+    padding-top: 3px;
+
+}
 
 
 
