@@ -25,6 +25,7 @@
     color: #FFFFFF;                 
     text-decoration: none;
     border-radius: 6px;
+    border: none;
     transition: 0.3s ease, color 0.3s ease;
 }
 
@@ -118,11 +119,14 @@ section .btn {
 
 section .hero-last-button{
     
-    color:#FFFFFF;
+    color:white ;
     width: 198px;
     height: 52px;
     gap: 10px;
     font-weight: 600;  
+    border-radius: 4px ;
+    border: 1px solid #FFFFFF;
+    background: none;
 }
 
 .text{
@@ -247,7 +251,7 @@ padding: 5px;
     padding-top: 16px;
     color: #627382;
     font-weight: 400;
-    padding-bottom: 80px;
+    padding-bottom: 24px;
 }
  .last-text .btn{
     color: #FFFFFF;
